@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h2>FoodGuru</h2>
+            <div class="navbar-searchbar">
+                <input type="text" placeholder="Search Your Items..." class="search-bar" >
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="navbar-links">
+                <a href="#">Home</a>
+                <a href="#Menu">Menu</a>
+                <a href="#Customer-review">Contact Us</a>
+                <a class="shopping-icon" href="#">Card</a>
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+        <div class="images"></div>
+        <div class="heading2">
+            <h1 id="Menu">Menu</h1>
+        </div>
+        <div class="hero-container">
+            <div class="hero-section">
+                <div class="cards">
+                    <img src="images/image-5.jpg" alt="">
+                    <p>veg chess Pizza</p>
+                    <p><del>$5</del><span>$2</span></p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="hero-section">
+                <div class="cards">
+                    <img src="images/image-6.jpg" alt="" height="175px">
+                    <p>Spring Roll</p>
+                    <p><del>$4</del><span>$3</span></p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="hero-section">
+                <div class="cards">
+                    <img src="images/image-7.jpg" alt="" height="175px">
+                    <p>Burger</p>
+                    <p><del>$7</del><span>$2</span></p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="hero-section">
+                <div class="cards">
+                    <img src="images/image-8.jpg" alt="">
+                    <p>fench fries</p>
+                    <p><del>$6</del><span>$5</span></p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="hero-section">
+                <div class="cards">
+                    <img src="images/image4.jpg" alt="">
+                    <p>Masala Pasta</p>
+                    <p><del>$3</del><span>$1</span></p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="hero-section">
+                <div class="cards">
+                    <img src="images/image5.jpg" alt="" height="175px">
+                    <p>Sahi Panner</p>
+                    <p><del>$10</del><span>$9</span></p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="hero-section">
+                <div class="cards">
+                    <img src="images/image6.jpg" alt="">
+                    <p>chess Pasta</p>
+                    <p><del>$3</del><span>$2</span></p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="hero-section">
+                <div class="cards">
+                    <img src="images/image7.jpg" alt="" height="175px">
+                    <p>cold Drink</p>
+                    <p><del>$15</del><span>$12</span></p>
+                    <button>Add to Cart</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="head">
+            <h1>Customer <span>Review</span></h1>
+        </div>
+        <div class="review">
+
+            <div class="customer">
+                <img src="images/men(3).jpg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione facere modi, repudiandae nostrum
+                    obcaecati quo?</p>
+
+            </div>
+
+            <div class="customer">
+                <img src="images/men(3).jpg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione facere modi, repudiandae nostrum
+                    obcaecati quo?</p>
+            </div>
+
+            <div class="customer">
+                <img src="images/men(3).jpg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione facere modi, repudiandae nostrum
+                    obcaecati quo?</p>
+
+            </div>
+        </div>
+        <div class="btn">
+            <button onclick="pre()">Prev</button>
+            <button onclick="next()">Next</button>
+
+        </div>
+        <footer>
+            <div class="footer-container" id="Customer-review">
+                <div class="restaurant-info">
+                    <h2>foodGuru</h2>
+                    <p>123 Main Street</p>
+                    <p>City, State ZIP</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://instagram.com" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>
