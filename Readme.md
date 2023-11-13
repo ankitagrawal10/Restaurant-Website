@@ -49,7 +49,7 @@ ScreenShots
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 
 Fork the repository.
-.Create a new branch: git checkout -b feature/new-feature.
-.Make your changes and commit them: git commit -m 'Add a new feature'.
-.Push to the branch: git push origin feature/new-feature.
-.Submit a pull request.
+1. Create a new branch: git checkout -b feature/new-feature.
+2. Make your changes and commit them: git commit -m 'Add a new feature'.
+3. Push to the branch: git push origin feature/new-feature.
+4. Submit a pull request.
