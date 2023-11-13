@@ -5,11 +5,10 @@ Welcome to the FoodGuru Restaurant Website project! This web application is desi
 
 # Table of Contents
 
-Features
-Getting Started
-Usage
-Contributing
-License
+1.Features
+2.Getting Started
+3.Usage
+4.Contributing
 
 # Features
 1. Navbar: The website features a navigation bar with a search bar, links to different sections of the site, and a shopping cart icon.
