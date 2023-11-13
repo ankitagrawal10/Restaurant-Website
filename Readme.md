@@ -40,10 +40,9 @@ To run this project locally, follow these steps:
 4. Check out the customer reviews in the dedicated section.
 
 ScreenShots
-![Alt text](image.png)
-![Alt text](image-1.png)
-![Alt text](image-2.png)
-
+![image](https://github.com/ankitagrawal10/Restaurant-Website/assets/134213732/e5386f1a-e691-48aa-8fb4-1f154a617a85)
+![image](https://github.com/ankitagrawal10/Restaurant-Website/assets/134213732/2768fa61-b545-46bc-a675-7edfdef054af)
+![image](https://github.com/ankitagrawal10/Restaurant-Website/assets/134213732/45d69091-6955-4bad-8b7a-c6b97688f33b)
 
 # Contributing
 
